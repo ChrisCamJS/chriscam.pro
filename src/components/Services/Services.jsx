@@ -16,7 +16,7 @@ export default function Services() {
   // Each object includes a unique Lucide icon component to render in the grid
   const services = [
     { id: 1, title: 'Site Audit & Consultation', price: '$49', icon: <Search className="w-8 h-8 text-primary" />, desc: 'A thorough technical review of your current site with actionable fixes.' },
-    { id: 2, title: 'Single-Page Landing Site', price: 'Starts at $199', icon: <LayoutTemplate className="w-8 h-8 text-primary" />, desc: 'Perfect for small businesses or new product launches. Fast, responsive, and clean.' },
+    { id: 2, title: 'Single-Page Landing Site', price: 'Starts at $99', icon: <LayoutTemplate className="w-8 h-8 text-primary" />, desc: 'Perfect for small businesses or new product launches. Fast, responsive, and clean.' },
     { id: 3, title: 'Personal Portfolio / Blog', price: 'Starts at $299', icon: <Briefcase className="w-8 h-8 text-primary" />, desc: 'Showcase your work or writing with a bespoke, lightning-fast setup.' },
     { id: 4, title: 'React Frontend Migration', price: 'Starts at $499', icon: <ArrowRightLeft className="w-8 h-8 text-primary" />, desc: 'Upgrade your dusty old HTML/PHP site to a modern React Single Page Application.' },
     { id: 5, title: 'Custom WordPress Theme', price: 'Starts at $599', icon: <PenTool className="w-8 h-8 text-primary" />, desc: 'Fully tailored WordPress development so you stand out from the generic templates.' },
