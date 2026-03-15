@@ -5,8 +5,8 @@ import { ArrowRight, Code2 } from 'lucide-react';
 export default function Hero() {
   return (
     // The main wrapper with plenty of padding so the nav bar doesn't cover the content
-    <section className="relative bg-surface pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 relative z-10">
+    <section className="relative bg-surface pt-16 pb-16 lg:pt-32 lg:pb-24 overflow-hidden border-b border-border">
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* Left Column: Copy & Calls to Action */}
