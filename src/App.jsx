@@ -1,34 +1,44 @@
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
+import React from 'react';
 import Nav from './components/Nav/Nav';
-import Main from './components/Main/Main';
+import Header from './components/Hero/Hero'; 
+import Services from './components/Services/Services';
+import Portfolio from './components/Portfolio/Portfolio';
+import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
-
-// Import our new pages
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
-
-import './App.css';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
+    <div className="min-h-screen bg-body text-text-main flex flex-col">
+      
+      {/* Top Navigation Bar */}
       <Nav />
-      {/* The Main wrapper handles the layout constraints */}
-      <Main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Main>
+      
+      {/* Main Content Area */}
+      <main className="grow">
+        
+        {/* We will build the proper Hero section next to replace this Header */}
+        <Header />
+        
+        {/* The shiny new Services grid component */}
+        <Services />
+        
+        {/* Portfolio */}
+        <Portfolio />
+        
+        {/* Contact Form */}
+        <ContactForm />
+        
+      </main>
+
+      {/* Global Footer */}
       <Footer />
+
+      {/* Our scroll-to-top button hovering in the corner */}
+      <ScrollToTop />
+      
     </div>
-  )
+  );
 }
 
 export default App;

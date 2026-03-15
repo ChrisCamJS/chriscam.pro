@@ -24,3 +24,6 @@
   --spacing-md: var(--space-md); 
   --spacing-xl: var(--space-xl);    
 }
+html {
+  scroll-behavior: smooth;
+}
