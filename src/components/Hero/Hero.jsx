@@ -53,7 +53,7 @@ export default function Hero() {
             {/* Image Container with a slight rotation that straightens out when hovered */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
               <img 
-                src="/images/myself2.jpg" 
+                src="/images/myself3.jpg" 
                 alt="Chris Cameron" 
                 className="w-full h-auto object-cover"
               />
