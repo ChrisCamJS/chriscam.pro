@@ -1,42 +1,76 @@
-# Ormen Lange - React Boilerplate
+---
 
-A robust, opinionated React starter template designed for rapid development. Built with Vite, styled with **Tailwind CSS v4**, and pre-configured for real-world application needs.
+# chriscam.pro | Professional Portfolio
 
-## 🎨 UI & Styling (New!)
-* **Framework:** Tailwind CSS v4 (Zero runtime, highly performant).
-* **Theming:** Centralized design tokens (colors, spacing) defined in `src/index.css` using the new `@theme` directive.
-* **Responsive Design:** Mobile-first approach using Flexbox layouts (no hardcoded `calc()` pixel math).
+### **The Digital Workspace of Chris Cameron**
 
-## 🍞 Toast Notification System
-Replaced the default browser `alert()` with a custom, non-blocking Toast Context.
-* **Usage:** Wrap the app in `<ToastProvider>`, then use `const { addToast } = useToast()` in any component.
-* **Features:** Auto-dismiss, 4 severity types (Info, Success, Warning, Error), and visually consistent with Tailwind styles.
-* **Location:** `src/context/ToastContext.jsx`
+A high-performance personal portfolio showcasing my journey from Meta-certified front-end developer to full-stack architect. Built to highlight my creative projects, technical certifications, and freelance capabilities.
 
-## 🚀 Features
-* **⚡️ Vite:** Blazing fast dev server and bundler.
-* **🎨 Theming:** Centralized CSS variables for easy re-branding.
-* **🔀 Routing:** Full `react-router-dom` setup with Layout architecture.
-* **💾 Data Layer:** Centralized API service and reusable `useFetch` hook.
-* **🧪 Testing:** Pre-configured Vitest + React Testing Library environment.
-* **🔒 Security:** Environment variable handling with `.env.example` template.
-* **🔎 SEO:** Open Graph and Twitter Card meta tags pre-installed.
+---
 
-## 🛠️ Installation
+## 🚀 The Tech Stack
 
-1.  **Clone and Install:**
-    ```bash
-    git clone [your-repo-url]
-    cd [project-name]
-    npm install
-    ```
+* **Front-End:** React / JavaScript (ES6+)
+* **Back-End:** PHP (Headless API)
+* **Database:** MySQL
+* **Styling:** Custom CSS / Responsive Design
+* **Hosting:** DreamHost (Shared Server)
 
-2.  **Start Development:**
-    ```bash
-    npm run dev
-    ```
+---
 
-3.  **Build for Production:**
-    ```bash
-    npm run build
-    ```
+## 🔧 Installation & Local Setup
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/chriscam-pro.git
+
+```
+
+
+2. **Navigate to the directory:**
+```bash
+cd chriscam-pro
+
+```
+
+
+3. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+4. **Run the development server:**
+```bash
+npm start
+
+```
+
+
+*The site should now be running at `http://localhost:3000`.*
+
+---
+
+## 🏗 Deployment Notes
+
+This project is optimized for deployment on **DreamHost**.
+
+* Ensure the `.htaccess` file is configured correctly for React Router support on shared hosting.
+* Production builds are generated via `npm run build`.
+
+---
+
+## 🌟 Key Features
+
+* **Dynamic Project Gallery:** Pulling live data for projects like *Hilltop Welding* and *Kitchen Kombat*.
+* **Responsive UI:** Optimized for everything from a 4K monitor to a mobile phone on a run.
+
+---
+
+## 📬 Contact
+
+* **Web:** [chriscam.pro](https://www.google.com/search?q=https://chriscam.pro)
+* **Location:** Toronto, OH (Pittsburgh Area)
+* **Current Focus:** Transitioning to full-time Web Development & Software Engineering.
+
