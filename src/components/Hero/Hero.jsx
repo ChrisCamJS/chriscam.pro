@@ -15,7 +15,7 @@ export default function Hero() {
             {/* The Certification Badge - Instant credibility */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-700 font-semibold text-sm mb-6 border border-blue-100 shadow-sm">
               <Code2 className="w-4 h-4" />
-              <span>Meta Certified Front-End Developer</span>
+              <span>Meta & Google Certified Software Engineer</span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold text-text-main tracking-tight mb-6 leading-tight">
